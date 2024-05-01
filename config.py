@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","12227067"))
-API_HASH = getenv("API_HASH","b463bedd791aa733ae2297e6520302fe")
+API_ID = int(getenv("API_ID","15345484"))
+API_HASH = getenv("API_HASH","90f6af8f38b5ddee3eaaa45d1e28bb06")
 
 BOT_TOKEN = getenv("BOT_TOKEN","")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ambot:ambot@ambot.onafiyb.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://KILLADI:KGF@1234@killadi.iocmlwr.mongodb.net/?retryWrites=true&w=majority&appName=Killadi")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001840241140"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Sophia Music")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6204761408").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "855803770").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AbhiModszYT/AMMusic"
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AmBotYT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/musichereu")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Silusworld")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
